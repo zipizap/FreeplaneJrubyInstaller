@@ -123,7 +123,7 @@
 </html>
 
 </richcontent>
-<node TEXT="A Freeplane addon to make simple and easy to install Jruby in Freeplane.&#xa;This addon is required to run ruby-scripts in Freeplane" ID="ID_173780973" CREATED="1452606062626" MODIFIED="1457620928144"/>
+<node TEXT="A Freeplane addon to make simple and easy to install Jruby in Freeplane.&#xa;This addon is required to run ruby-scripts in Freeplane&#xa;You need Java 7 or latter to use it." ID="ID_173780973" CREATED="1452606062626" MODIFIED="1457623586359"/>
 </node>
 <node TEXT="changes" POSITION="left" ID="ID_865190944" CREATED="1452181645315" MODIFIED="1457623531433">
 <edge COLOR="#0000ff"/>
