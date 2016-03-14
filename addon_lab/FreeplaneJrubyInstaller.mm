@@ -1,15 +1,15 @@
-<map version="freeplane 1.5.3">
+<map version="freeplane 1.5.6">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="FreeplaneJrubyInstaller" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1452605970040" LINK="https://github.com/zipizap/FreeplaneJrubyInstaller" BACKGROUND_COLOR="#97c7dc">
+<node TEXT="FreeplaneJrubyInstaller" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1457623531368" LINK="https://github.com/zipizap/FreeplaneJrubyInstaller/tree/master" BACKGROUND_COLOR="#97c7dc">
 <font SIZE="16" BOLD="true" ITALIC="true"/>
 <hook NAME="MapStyle">
-    <properties show_icon_for_attributes="true" show_note_icons="true" fit_to_viewport="false;"/>
+    <properties show_icon_for_attributes="true" fit_to_viewport="false;" show_note_icons="true"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="default" MAX_WIDTH_QUANTITY="600.0 px" MAX_WIDTH="600" COLOR="#000000" STYLE="as_parent">
+<stylenode LOCALIZED_TEXT="default" MAX_WIDTH="600.0 px" COLOR="#000000" STYLE="as_parent">
 <font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details"/>
@@ -57,7 +57,7 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="11" RULE="ON_BRANCH_CREATION"/>
-<attribute_layout NAME_WIDTH="141" VALUE_WIDTH="143"/>
+<attribute_layout NAME_WIDTH="105.75 pt" VALUE_WIDTH="107.25 pt"/>
 <attribute NAME="name" VALUE="freeplaneJrubyInstaller"/>
 <attribute NAME="version" VALUE="v1.0"/>
 <attribute NAME="author" VALUE="zipizap"/>
@@ -101,7 +101,7 @@
 </html>
 
 </richcontent>
-<node TEXT="description" POSITION="left" ID="ID_1783847365" CREATED="1452181645299" MODIFIED="1452606165638">
+<node TEXT="description" POSITION="left" ID="ID_1783847365" CREATED="1452181645299" MODIFIED="1457623531430">
 <edge COLOR="#ff0000"/>
 <richcontent TYPE="NOTE">
 
@@ -123,9 +123,9 @@
 </html>
 
 </richcontent>
-<node TEXT="A Freeplane addon to make simple and easy to install Jruby in Freeplane.&#xa;This addon is required to enable Freeplane to use ruby scripts." ID="ID_173780973" CREATED="1452606062626" MODIFIED="1452606361602"/>
+<node TEXT="A Freeplane addon to make simple and easy to install Jruby in Freeplane.&#xa;This addon is required to run ruby-scripts in Freeplane&#xa;You need Java 7 or latter to use it." ID="ID_173780973" CREATED="1452606062626" MODIFIED="1457623586359"/>
 </node>
-<node TEXT="changes" POSITION="left" ID="ID_865190944" CREATED="1452181645315" MODIFIED="1452605970112">
+<node TEXT="changes" POSITION="left" ID="ID_865190944" CREATED="1452181645315" MODIFIED="1457623531433">
 <edge COLOR="#0000ff"/>
 <richcontent TYPE="NOTE">
 
@@ -142,7 +142,7 @@
 
 </richcontent>
 </node>
-<node TEXT="license" FOLDED="true" POSITION="left" ID="ID_770313631" CREATED="1452181645330" MODIFIED="1452605970116">
+<node TEXT="license" FOLDED="true" POSITION="left" ID="ID_770313631" CREATED="1452181645330" MODIFIED="1457623531438">
 <edge COLOR="#00ff00"/>
 <richcontent TYPE="NOTE">
 
@@ -166,7 +166,7 @@
 </richcontent>
 <node TEXT="&#xa;This add-on is free software: you can redistribute it and/or modify&#xa;it under the terms of the GNU General Public License as published by&#xa;the Free Software Foundation, either version 2 of the License, or&#xa;(at your option) any later version.&#xa;&#xa;This program is distributed in the hope that it will be useful,&#xa;but WITHOUT ANY WARRANTY; without even the implied warranty of&#xa;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the&#xa;GNU General Public License for more details.&#xa;" ID="ID_772429614" CREATED="1452181645347" MODIFIED="1452181645352"/>
 </node>
-<node TEXT="preferences.xml" POSITION="left" ID="ID_257145989" CREATED="1452181645373" MODIFIED="1452605970120">
+<node TEXT="preferences.xml" POSITION="left" ID="ID_257145989" CREATED="1452181645373" MODIFIED="1457623531441">
 <edge COLOR="#ff00ff"/>
 <richcontent TYPE="NOTE">
 
@@ -186,7 +186,7 @@
 
 </richcontent>
 </node>
-<node TEXT="default.properties" POSITION="left" ID="ID_1531129391" CREATED="1452181645396" MODIFIED="1452605970123">
+<node TEXT="default.properties" POSITION="left" ID="ID_1531129391" CREATED="1452181645396" MODIFIED="1457623531443">
 <edge COLOR="#00ffff"/>
 <richcontent TYPE="NOTE">
 
@@ -203,7 +203,7 @@
 
 </richcontent>
 </node>
-<node TEXT="translations" POSITION="left" ID="ID_682619897" CREATED="1452181645404" MODIFIED="1452605970127">
+<node TEXT="translations" POSITION="left" ID="ID_682619897" CREATED="1452181645404" MODIFIED="1457623531448">
 <edge COLOR="#ffff00"/>
 <richcontent TYPE="NOTE">
 
@@ -231,13 +231,13 @@
 
 </richcontent>
 <node TEXT="en" ID="ID_977191833" CREATED="1452181645411" MODIFIED="1452605948002">
-<attribute_layout NAME_WIDTH="121" VALUE_WIDTH="193"/>
+<attribute_layout NAME_WIDTH="90.75 pt" VALUE_WIDTH="144.75 pt"/>
 <attribute NAME="addons.${name}" VALUE="FreeplaneJrubyInstaller"/>
 <attribute NAME="addons.jruby" VALUE="Jruby..."/>
 <attribute NAME="addons.installjruby" VALUE="Check/install Jruby version..."/>
 </node>
 </node>
-<node TEXT="deinstall" POSITION="left" ID="ID_1950369593" CREATED="1452181645420" MODIFIED="1452605970129">
+<node TEXT="deinstall" POSITION="left" ID="ID_1950369593" CREATED="1452181645420" MODIFIED="1457623531449">
 <edge COLOR="#7c0000"/>
 <richcontent TYPE="NOTE">
 
@@ -253,13 +253,13 @@
 </html>
 
 </richcontent>
-<attribute_layout NAME_WIDTH="43" VALUE_WIDTH="304"/>
+<attribute_layout NAME_WIDTH="32.25 pt" VALUE_WIDTH="359.25 pt"/>
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}.script.xml"/>
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}/scripts/FreeplaneJrubyInstaller.groovy"/>
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}/lib/FreeplaneJrubyInstaller.jar"/>
 <attribute NAME="delete" VALUE="${installationbase}/scripts/show_jruby_version.rb"/>
 </node>
-<node TEXT="scripts" POSITION="right" ID="ID_945586545" CREATED="1452181645434" MODIFIED="1452605970139">
+<node TEXT="scripts" POSITION="right" ID="ID_945586545" CREATED="1452181645434" MODIFIED="1457623531457">
 <edge COLOR="#00007c"/>
 <richcontent TYPE="NOTE">
 
@@ -383,8 +383,8 @@
 </html>
 
 </richcontent>
-<node TEXT="FreeplaneJrubyInstaller.groovy" ID="ID_1962771958" CREATED="1452183768458" MODIFIED="1452184812621">
-<attribute_layout NAME_WIDTH="279" VALUE_WIDTH="362"/>
+<node TEXT="FreeplaneJrubyInstaller.groovy" ID="ID_1962771958" CREATED="1452183768458" MODIFIED="1457620572834">
+<attribute_layout NAME_WIDTH="209.25 pt" VALUE_WIDTH="209.25 pt"/>
 <attribute NAME="menuTitleKey" VALUE="addons.installjruby"/>
 <attribute NAME="menuLocation" VALUE="main_menu_scripting/addons.jruby"/>
 <attribute NAME="executionMode" VALUE="on_single_node"/>
@@ -396,7 +396,7 @@
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="true"/>
 </node>
 </node>
-<node TEXT="lib" POSITION="right" ID="ID_638696808" CREATED="1452181645454" MODIFIED="1452605970203">
+<node TEXT="lib" POSITION="right" ID="ID_638696808" CREATED="1452181645454" MODIFIED="1457623531489">
 <edge COLOR="#007c00"/>
 <richcontent TYPE="NOTE">
 
@@ -438,7 +438,7 @@
 </richcontent>
 <node TEXT="FreeplaneJrubyInstaller.jar" ID="ID_1656587394" CREATED="1452184337769" MODIFIED="1452184337771"/>
 </node>
-<node TEXT="zips" POSITION="right" ID="ID_682479777" CREATED="1452181645464" MODIFIED="1452605970210">
+<node TEXT="zips" POSITION="right" ID="ID_682479777" CREATED="1452181645464" MODIFIED="1457623531495">
 <edge COLOR="#7c007c"/>
 <richcontent TYPE="NOTE">
 
@@ -478,9 +478,8 @@
 </html>
 
 </richcontent>
-<node TEXT="scripts" ID="ID_1688077172" CREATED="1452184313278" MODIFIED="1452184314276"/>
 </node>
-<node TEXT="images" POSITION="right" ID="ID_1796134520" CREATED="1452181645474" MODIFIED="1452605970244">
+<node TEXT="images" POSITION="right" ID="ID_1796134520" CREATED="1452181645474" MODIFIED="1457623531499">
 <edge COLOR="#007c7c"/>
 <richcontent TYPE="NOTE">
 
