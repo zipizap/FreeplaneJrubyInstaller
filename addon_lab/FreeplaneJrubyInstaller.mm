@@ -1,9 +1,9 @@
 <map version="freeplane 1.5.6">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="FreeplaneJrubyInstaller" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1458134064584" LINK="https://raw.githubusercontent.com/zipizap/FreeplaneJrubyInstaller/early_stage/addon_lab" BACKGROUND_COLOR="#97c7dc">
+<node TEXT="FreeplaneJrubyInstaller" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1458135016520" LINK="https://raw.githubusercontent.com/zipizap/FreeplaneJrubyInstaller/early_stage/addon_lab" BACKGROUND_COLOR="#97c7dc">
 <font SIZE="16" BOLD="true" ITALIC="true"/>
 <hook NAME="MapStyle">
-    <properties fit_to_viewport="false;" show_icon_for_attributes="true" show_note_icons="true"/>
+    <properties show_icon_for_attributes="true" fit_to_viewport="false;" show_note_icons="true"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -59,7 +59,7 @@
 <hook NAME="AutomaticEdgeColor" COUNTER="11" RULE="ON_BRANCH_CREATION"/>
 <attribute_layout NAME_WIDTH="105.75 pt" VALUE_WIDTH="521.25 pt"/>
 <attribute NAME="name" VALUE="freeplaneJrubyInstaller"/>
-<attribute NAME="version" VALUE="v1.0"/>
+<attribute NAME="version" VALUE="v1.1"/>
 <attribute NAME="author" VALUE="zipizap"/>
 <attribute NAME="freeplaneVersionFrom" VALUE="v1.3.15"/>
 <attribute NAME="freeplaneVersionTo" VALUE=""/>
@@ -101,7 +101,7 @@
 </html>
 
 </richcontent>
-<node TEXT="description" POSITION="left" ID="ID_1783847365" CREATED="1452181645299" MODIFIED="1458124575370">
+<node TEXT="description" POSITION="left" ID="ID_1783847365" CREATED="1452181645299" MODIFIED="1458135016569">
 <edge COLOR="#ff0000"/>
 <richcontent TYPE="NOTE">
 
@@ -125,7 +125,7 @@
 </richcontent>
 <node TEXT="A Freeplane addon to make simple and easy to install Jruby in Freeplane.&#xa;This addon is required to run ruby-scripts in Freeplane&#xa;You need Java 7 or latter to use it." ID="ID_173780973" CREATED="1452606062626" MODIFIED="1457623586359"/>
 </node>
-<node TEXT="changes" POSITION="left" ID="ID_865190944" CREATED="1452181645315" MODIFIED="1458124575371">
+<node TEXT="changes" POSITION="left" ID="ID_865190944" CREATED="1452181645315" MODIFIED="1458135016573">
 <edge COLOR="#0000ff"/>
 <richcontent TYPE="NOTE">
 
@@ -142,7 +142,7 @@
 
 </richcontent>
 </node>
-<node TEXT="license" FOLDED="true" POSITION="left" ID="ID_770313631" CREATED="1452181645330" MODIFIED="1458124575373">
+<node TEXT="license" FOLDED="true" POSITION="left" ID="ID_770313631" CREATED="1452181645330" MODIFIED="1458135016574">
 <edge COLOR="#00ff00"/>
 <richcontent TYPE="NOTE">
 
@@ -166,7 +166,7 @@
 </richcontent>
 <node TEXT="&#xa;This add-on is free software: you can redistribute it and/or modify&#xa;it under the terms of the GNU General Public License as published by&#xa;the Free Software Foundation, either version 2 of the License, or&#xa;(at your option) any later version.&#xa;&#xa;This program is distributed in the hope that it will be useful,&#xa;but WITHOUT ANY WARRANTY; without even the implied warranty of&#xa;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the&#xa;GNU General Public License for more details.&#xa;" ID="ID_772429614" CREATED="1452181645347" MODIFIED="1452181645352"/>
 </node>
-<node TEXT="preferences.xml" POSITION="left" ID="ID_257145989" CREATED="1452181645373" MODIFIED="1458124575378">
+<node TEXT="preferences.xml" POSITION="left" ID="ID_257145989" CREATED="1452181645373" MODIFIED="1458135016579">
 <edge COLOR="#ff00ff"/>
 <richcontent TYPE="NOTE">
 
@@ -186,7 +186,7 @@
 
 </richcontent>
 </node>
-<node TEXT="default.properties" POSITION="left" ID="ID_1531129391" CREATED="1452181645396" MODIFIED="1458124575380">
+<node TEXT="default.properties" POSITION="left" ID="ID_1531129391" CREATED="1452181645396" MODIFIED="1458135016582">
 <edge COLOR="#00ffff"/>
 <richcontent TYPE="NOTE">
 
@@ -203,7 +203,7 @@
 
 </richcontent>
 </node>
-<node TEXT="translations" POSITION="left" ID="ID_682619897" CREATED="1452181645404" MODIFIED="1458124575382">
+<node TEXT="translations" POSITION="left" ID="ID_682619897" CREATED="1452181645404" MODIFIED="1458135016584">
 <edge COLOR="#ffff00"/>
 <richcontent TYPE="NOTE">
 
@@ -237,7 +237,7 @@
 <attribute NAME="addons.installjruby" VALUE="Check/install Jruby version..."/>
 </node>
 </node>
-<node TEXT="deinstall" POSITION="left" ID="ID_1950369593" CREATED="1452181645420" MODIFIED="1458124575383">
+<node TEXT="deinstall" POSITION="left" ID="ID_1950369593" CREATED="1452181645420" MODIFIED="1458135016586">
 <edge COLOR="#7c0000"/>
 <richcontent TYPE="NOTE">
 
@@ -259,7 +259,7 @@
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}/lib/FreeplaneJrubyInstaller.jar"/>
 <attribute NAME="delete" VALUE="${installationbase}/scripts/show_jruby_version.rb"/>
 </node>
-<node TEXT="scripts" POSITION="right" ID="ID_945586545" CREATED="1452181645434" MODIFIED="1458124575393">
+<node TEXT="scripts" POSITION="right" ID="ID_945586545" CREATED="1452181645434" MODIFIED="1458135016594">
 <edge COLOR="#00007c"/>
 <richcontent TYPE="NOTE">
 
@@ -396,7 +396,7 @@
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="true"/>
 </node>
 </node>
-<node TEXT="lib" POSITION="right" ID="ID_638696808" CREATED="1452181645454" MODIFIED="1458124575424">
+<node TEXT="lib" POSITION="right" ID="ID_638696808" CREATED="1452181645454" MODIFIED="1458135016629">
 <edge COLOR="#007c00"/>
 <richcontent TYPE="NOTE">
 
@@ -438,7 +438,7 @@
 </richcontent>
 <node TEXT="FreeplaneJrubyInstaller.jar" ID="ID_1656587394" CREATED="1452184337769" MODIFIED="1452184337771"/>
 </node>
-<node TEXT="zips" POSITION="right" ID="ID_682479777" CREATED="1452181645464" MODIFIED="1458124575430">
+<node TEXT="zips" POSITION="right" ID="ID_682479777" CREATED="1452181645464" MODIFIED="1458135016635">
 <edge COLOR="#7c007c"/>
 <richcontent TYPE="NOTE">
 
@@ -479,7 +479,7 @@
 
 </richcontent>
 </node>
-<node TEXT="images" POSITION="right" ID="ID_1796134520" CREATED="1452181645474" MODIFIED="1458124575433">
+<node TEXT="images" POSITION="right" ID="ID_1796134520" CREATED="1452181645474" MODIFIED="1458135016643">
 <edge COLOR="#007c7c"/>
 <richcontent TYPE="NOTE">
 
