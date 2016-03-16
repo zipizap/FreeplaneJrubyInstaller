@@ -1,6 +1,6 @@
 <map version="freeplane 1.5.6">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="FreeplaneJrubyInstaller" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1458134064584" LINK="https://raw.githubusercontent.com/zipizap/FreeplaneJrubyInstaller/early_stage/addon_lab" BACKGROUND_COLOR="#97c7dc">
+<node TEXT="FreeplaneJrubyInstaller" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1458124575326" LINK="https://github.com/zipizap/FreeplaneJrubyInstaller/tree/master" BACKGROUND_COLOR="#97c7dc">
 <font SIZE="16" BOLD="true" ITALIC="true"/>
 <hook NAME="MapStyle">
     <properties fit_to_viewport="false;" show_icon_for_attributes="true" show_note_icons="true"/>
@@ -57,13 +57,13 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="11" RULE="ON_BRANCH_CREATION"/>
-<attribute_layout NAME_WIDTH="105.75 pt" VALUE_WIDTH="521.25 pt"/>
+<attribute_layout NAME_WIDTH="105.75 pt" VALUE_WIDTH="516.0 pt"/>
 <attribute NAME="name" VALUE="freeplaneJrubyInstaller"/>
 <attribute NAME="version" VALUE="v1.0"/>
 <attribute NAME="author" VALUE="zipizap"/>
 <attribute NAME="freeplaneVersionFrom" VALUE="v1.3.15"/>
 <attribute NAME="freeplaneVersionTo" VALUE=""/>
-<attribute NAME="updateUrl" VALUE=""/>
+<attribute NAME="updateUrl" VALUE="https://raw.githubusercontent.com/zipizap/FreeplaneJrubyInstaller/early_stage/addon_lab/version.properties"/>
 <richcontent TYPE="NOTE">
 
 <html>
