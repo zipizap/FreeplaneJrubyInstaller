@@ -1,9 +1,9 @@
 <map version="freeplane 1.5.6">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="FreeplaneJrubyInstaller" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1459769306440" LINK="https://github.com/zipizap/FreeplaneJrubyInstaller/tree/master" BACKGROUND_COLOR="#97c7dc">
+<node TEXT="FreeplaneJrubyInstaller" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1459785736440" LINK="https://github.com/zipizap/FreeplaneJrubyInstaller/tree/master" BACKGROUND_COLOR="#97c7dc">
 <font SIZE="16" BOLD="true" ITALIC="true"/>
 <hook NAME="MapStyle" zoom="0.909">
-    <properties fit_to_viewport="false;" show_icon_for_attributes="true" show_note_icons="true"/>
+    <properties show_icon_for_attributes="true" fit_to_viewport="false;" show_note_icons="true"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -59,7 +59,7 @@
 <hook NAME="AutomaticEdgeColor" COUNTER="11" RULE="ON_BRANCH_CREATION"/>
 <attribute_layout NAME_WIDTH="105.75 pt" VALUE_WIDTH="521.25 pt"/>
 <attribute NAME="name" VALUE="freeplaneJrubyInstaller"/>
-<attribute NAME="version" VALUE="v1.3"/>
+<attribute NAME="version" VALUE="v1.4"/>
 <attribute NAME="author" VALUE="zipizap"/>
 <attribute NAME="freeplaneVersionFrom" VALUE="v1.3.15"/>
 <attribute NAME="freeplaneVersionTo" VALUE=""/>
@@ -99,8 +99,9 @@
     </ul>
   </body>
 </html>
+
 </richcontent>
-<node TEXT="description" FOLDED="true" POSITION="left" ID="ID_1783847365" CREATED="1452181645299" MODIFIED="1459769306513">
+<node TEXT="description" FOLDED="true" POSITION="left" ID="ID_1783847365" CREATED="1452181645299" MODIFIED="1459785736491">
 <edge COLOR="#ff0000"/>
 <richcontent TYPE="NOTE">
 
@@ -120,10 +121,11 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="A Freeplane addon to make simple and easy to install Jruby in Freeplane.&#xa;This addon is required to run ruby-scripts in Freeplane&#xa;You need Java 7 or latter to use it." ID="ID_173780973" CREATED="1452606062626" MODIFIED="1457623586359"/>
 </node>
-<node TEXT="changes" POSITION="left" ID="ID_865190944" CREATED="1452181645315" MODIFIED="1459769306518">
+<node TEXT="changes" POSITION="left" ID="ID_865190944" CREATED="1452181645315" MODIFIED="1459785736493">
 <edge COLOR="#0000ff"/>
 <richcontent TYPE="NOTE">
 
@@ -137,9 +139,10 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 </node>
-<node TEXT="license" POSITION="left" ID="ID_770313631" CREATED="1452181645330" MODIFIED="1459769306522">
+<node TEXT="license" POSITION="left" ID="ID_770313631" CREATED="1452181645330" MODIFIED="1459785736495">
 <edge COLOR="#00ff00"/>
 <richcontent TYPE="NOTE">
 
@@ -159,10 +162,11 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="&#xa;This add-on is free software: you can redistribute it and/or modify&#xa;it under the terms of the GNU General Public License as published by&#xa;the Free Software Foundation, either version 2 of the License, or&#xa;(at your option) any later version.&#xa;&#xa;This program is distributed in the hope that it will be useful,&#xa;but WITHOUT ANY WARRANTY; without even the implied warranty of&#xa;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the&#xa;GNU General Public License for more details.&#xa;" ID="ID_772429614" CREATED="1452181645347" MODIFIED="1452181645352"/>
 </node>
-<node TEXT="preferences.xml" POSITION="left" ID="ID_257145989" CREATED="1452181645373" MODIFIED="1459769306530">
+<node TEXT="preferences.xml" POSITION="left" ID="ID_257145989" CREATED="1452181645373" MODIFIED="1459785736504">
 <edge COLOR="#ff00ff"/>
 <richcontent TYPE="NOTE">
 
@@ -172,16 +176,17 @@
   </head>
   <body>
     <p>
-      <font color="#000000" face="SansSerif, sans-serif">The child node contains the add-on configuration as an extension to mindmapmodemenu.xml (in Tools-&gt;Preferences-&gt;Add-ons). </font>
+      <font face="SansSerif, sans-serif" color="#000000">The child node contains the add-on configuration as an extension to mindmapmodemenu.xml (in Tools-&gt;Preferences-&gt;Add-ons). </font>
     </p>
     <p>
-      <font color="#000000" face="SansSerif, sans-serif">Every property in the configuration should receive a default value in <i>default.properties</i>&#160;node.</font>
+      <font face="SansSerif, sans-serif" color="#000000">Every property in the configuration should receive a default value in <i>default.properties</i>&#160;node.</font>
     </p>
   </body>
 </html>
+
 </richcontent>
 </node>
-<node TEXT="default.properties" POSITION="left" ID="ID_1531129391" CREATED="1452181645396" MODIFIED="1459769306532">
+<node TEXT="default.properties" POSITION="left" ID="ID_1531129391" CREATED="1452181645396" MODIFIED="1459785736507">
 <edge COLOR="#00ffff"/>
 <richcontent TYPE="NOTE">
 
@@ -195,9 +200,10 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 </node>
-<node TEXT="translations" POSITION="left" ID="ID_682619897" CREATED="1452181645404" MODIFIED="1459769306536">
+<node TEXT="translations" POSITION="left" ID="ID_682619897" CREATED="1452181645404" MODIFIED="1459785736510">
 <edge COLOR="#ffff00"/>
 <richcontent TYPE="NOTE">
 
@@ -222,6 +228,7 @@
     </ul>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="en" ID="ID_977191833" CREATED="1452181645411" MODIFIED="1459765866675">
 <attribute_layout NAME_WIDTH="211.5 pt" VALUE_WIDTH="219.0 pt"/>
@@ -234,7 +241,7 @@
 <attribute NAME="addons.ruby_live_debugger_with_gui_paralell" VALUE="Debug in paralell thread (GUI responsive)"/>
 </node>
 </node>
-<node TEXT="deinstall" POSITION="left" ID="ID_1950369593" CREATED="1452181645420" MODIFIED="1459769306538">
+<node TEXT="deinstall" POSITION="left" ID="ID_1950369593" CREATED="1452181645420" MODIFIED="1459785736512">
 <edge COLOR="#7c0000"/>
 <richcontent TYPE="NOTE">
 
@@ -248,6 +255,7 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <attribute_layout NAME_WIDTH="32.25 pt" VALUE_WIDTH="359.25 pt"/>
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}.script.xml"/>
@@ -578,8 +586,13 @@
 <attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/ffi-1.9.10-java/LICENSE"/>
 <attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/JrPrototypeX.rb.ToDecide"/>
 <attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem.sh"/>
+<attribute NAME="delete" VALUE="${installationbase}/lib/freeplane_jruby_common_environment.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/connect_debug_client.sh"/>
+<attribute NAME="delete" VALUE="${installationbase}/scripts/ruby_sample_script.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/${name}/scripts/ruby_live_debugger_with_gui_freezed.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/${name}/scripts/ruby_live_debugger_with_gui_paralell.groovy"/>
 </node>
-<node TEXT="scripts" POSITION="right" ID="ID_945586545" CREATED="1452181645434" MODIFIED="1459769306548">
+<node TEXT="scripts" POSITION="right" ID="ID_945586545" CREATED="1452181645434" MODIFIED="1459785736521">
 <edge COLOR="#00007c"/>
 <richcontent TYPE="NOTE">
 
@@ -701,6 +714,7 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="FreeplaneJrubyInstaller.groovy" ID="ID_1962771958" CREATED="1452183768458" MODIFIED="1457620572834">
 <attribute_layout NAME_WIDTH="209.25 pt" VALUE_WIDTH="209.25 pt"/>
@@ -714,7 +728,7 @@
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="true"/>
 </node>
-<node TEXT="ruby_live_debugger_with_gui_freezed.rb" ID="ID_997048525" CREATED="1459764212958" MODIFIED="1459765020707">
+<node TEXT="ruby_live_debugger_with_gui_freezed.groovy" ID="ID_997048525" CREATED="1459764212958" MODIFIED="1459784998175">
 <attribute_layout NAME_WIDTH="209.25 pt" VALUE_WIDTH="253.5 pt"/>
 <attribute NAME="menuTitleKey" VALUE="addons.ruby_live_debugger_with_gui_freezed"/>
 <attribute NAME="menuLocation" VALUE="main_menu_scripting/addons.jruby/addons.debug"/>
@@ -726,7 +740,7 @@
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="true"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="true"/>
 </node>
-<node TEXT="ruby_live_debugger_with_gui_paralell.rb" ID="ID_470139438" CREATED="1459764216836" MODIFIED="1459765043315">
+<node TEXT="ruby_live_debugger_with_gui_paralell.groovy" ID="ID_470139438" CREATED="1459764216836" MODIFIED="1459785001528">
 <attribute_layout NAME_WIDTH="209.25 pt" VALUE_WIDTH="253.5 pt"/>
 <attribute NAME="menuTitleKey" VALUE="addons.ruby_live_debugger_with_gui_paralell"/>
 <attribute NAME="menuLocation" VALUE="main_menu_scripting/addons.jruby/addons.debug"/>
@@ -739,7 +753,7 @@
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="true"/>
 </node>
 </node>
-<node TEXT="lib" POSITION="right" ID="ID_638696808" CREATED="1452181645454" MODIFIED="1459769308109">
+<node TEXT="lib" POSITION="right" ID="ID_638696808" CREATED="1452181645454" MODIFIED="1459785736556">
 <edge COLOR="#007c00"/>
 <richcontent TYPE="NOTE">
 
@@ -777,10 +791,11 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="FreeplaneJrubyInstaller.jar" ID="ID_1656587394" CREATED="1452184337769" MODIFIED="1452184337771"/>
 </node>
-<node TEXT="zips" POSITION="right" ID="ID_682479777" CREATED="1452181645464" MODIFIED="1459769308136">
+<node TEXT="zips" POSITION="right" ID="ID_682479777" CREATED="1452181645464" MODIFIED="1459785736561">
 <edge COLOR="#7c007c"/>
 <richcontent TYPE="NOTE">
 
@@ -818,10 +833,13 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="addons" ID="ID_1728579441" CREATED="1459768654398" MODIFIED="1459768655907"/>
+<node TEXT="lib" ID="ID_1859924244" CREATED="1459778973250" MODIFIED="1459778973276"/>
+<node TEXT="scripts" ID="ID_377654240" CREATED="1459778973277" MODIFIED="1459778973278"/>
 </node>
-<node TEXT="images" POSITION="right" ID="ID_1796134520" CREATED="1452181645474" MODIFIED="1459769308180">
+<node TEXT="images" POSITION="right" ID="ID_1796134520" CREATED="1452181645474" MODIFIED="1459785736589">
 <edge COLOR="#007c7c"/>
 <richcontent TYPE="NOTE">
 
@@ -855,6 +873,7 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
