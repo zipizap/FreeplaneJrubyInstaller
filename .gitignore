@@ -1,1 +1,4 @@
-test_userdir
+test_userdir/**/lib/jruby-complete*.jar
+test_userdir/**/logs/log.*
+test_userdir/**/.backup
+

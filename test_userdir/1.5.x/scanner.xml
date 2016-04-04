@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Description:                                                            -->
+<!--                                                                         -->
+<!-- <scanner> Scanners are locale dependent. If there is no scanner for     -->
+<!-- the selected locale the scanner marked with default="true" is choosen.  -->
+<!--  'locales': A comma-separated list of locale names.                     -->
+<!--    The locale is selected via Preferences -> Environment -> Language    -->
+<!--    It's a pattern like 'en' (generic English) or 'en_US'                -->
+<!--    (English/USA). Use the more general two-letter form if appropriate.  -->
+<!--  'default': Set to "true" for only one locale. The standard is 'en'.    -->
+<!--                                                                         -->
+<!-- <checkfirstchar> allows to enable a fast check for the first input      -->
+<!-- character. If the first input character is not contained in the string  -->
+<!-- given in attribute 'chars' no further attempts are made to parse the    -->
+<!-- input as a number or date.                                              -->
+<!-- Do not use this option if you have have scanner formats that can        -->
+<!-- recognize arbitrary text at the beginning of the pattern. To disable    -->
+<!-- this check omit <checkfirstchar> or add the attribute disabled="true".  -->
+<!--  'chars': A string of characters that may start data.                   -->
+<!--                                                                         -->
+<!-- <type> selects the kind of data the scanner should recognize.           -->
+<!--  'style' selects the formatter implementation:                          -->
+<!--   - "isodate": flexible ISO date reader for strings like 2011-04-29 22:31:21 -->
+<!--     Only creates datetimes if time part is given, so no differentiation -->
+<!--     between date and date/time is necessary.                            -->
+<!--   - "date": a special format for dates; needs attribute 'format'. See   -->
+<!--     http://download.oracle.com/javase/6/docs/api/java/text/SimpleDateFormat.html -->
+<!--   - "numberliteral": parses Java float or integral number literals only, with -->
+<!--     a dot as decimal separator and no thousands separator. See          -->
+<!--     http://en.wikibooks.org/wiki/Java_Programming/Literals/Numeric_Literals/Floating_Point_Literals -->
+<!--   - "decimal": a special format for numbers; needs attribute 'format'. See -->
+<!--     http://download.oracle.com/javase/6/docs/api/java/text/DecimalFormat.html -->
+<!--  'format': The format code of a "date" or "decimal" scanner.            -->
+<!--  'comment': Inline comment, not used by the application.                -->
+<scanners>
+    <scanner locale="en" default="true">
+        <checkfirstchar chars="+-0123456789."/>
+        <parser type="number" style="decimal" comment="supports locale specific numbers"/>
+        <parser type="date" style="isodate" comment="ISO reader for date and date/time"/>
+        <parser type="datetime" style="date" format="M/d" comment="completes date with current year"/>
+        <parser type="datetime" style="date" format="M/d/y" comment="parses 4/21/11 or 4/21/2011"/>
+        <parser type="datetime" style="date" format="M/d/y H:m" comment="parses datetime"/>
+        <parser type="datetime" style="date" format="M/d/y H:m:s" comment="parses datetime"/>
+        <parser type="datetime" style="date" format="H:m" comment="parses time, sets date to today"/>
+    </scanner>
+    <scanner locale="de">
+        <checkfirstchar chars="+-0123456789,."/>
+        <parser type="datetime" style="date" format="d.M" comment="completes date with current year"/>
+        <parser type="datetime" style="date" format="d.M.y" comment="parses 21.4.11 or 21.4.2011"/>
+        <parser type="datetime" style="date" format="d.M.y H:m" comment="parses datetime"/>
+        <parser type="datetime" style="date" format="d.M.y H:m:s" comment="parses datetime"/>
+        <parser type="datetime" style="date" format="H:m" comment="parses time, sets date to today"/>
+        <parser type="number" style="decimal" comment="uses comma as decimal separator: 1.234,12"/>
+        <parser type="date" style="isodate" comment="ISO reader for date and date/time"/>
+        <parser type="number" style="numberliteral" comment="support dot as decimal separator (if nothing else matches)"/>
+    </scanner>
+    <scanner locale="hr">
+        <checkfirstchar chars="+-0123456789,."/>
+        <parser type="datetime" style="date" format="d.M" comment="completes date with current year"/>
+        <parser type="datetime" style="date" format="d.M.y" comment="parses 21.4.11 or 21.4.2011"/>
+        <parser type="datetime" style="date" format="d.M.y." comment="parses 21.4.11. or 21.4.2011."/>
+        <parser type="datetime" style="date" format="d.M.y. H:m." comment="parses datetime"/>
+        <parser type="datetime" style="date" format="d.M.y. H:m:s" comment="parses datetime"/>
+        <parser type="datetime" style="date" format="H:m" comment="parses time, sets date to today"/>
+        <parser type="number" style="decimal" comment="uses comma as decimal separator: 1.234,12"/>
+        <parser type="date" style="isodate" comment="ISO reader for date and date/time"/>
+        <parser type="number" style="numberliteral" comment="support dot as decimal separator (if nothing else matches)"/>
+    </scanner>
+</scanners>
