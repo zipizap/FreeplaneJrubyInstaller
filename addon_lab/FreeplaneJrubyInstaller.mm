@@ -1,8 +1,8 @@
 <map version="freeplane 1.5.6">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="FreeplaneJrubyInstaller" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1459348924447" LINK="https://github.com/zipizap/FreeplaneJrubyInstaller/tree/master" BACKGROUND_COLOR="#97c7dc">
+<node TEXT="FreeplaneJrubyInstaller" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1459761364525" LINK="https://github.com/zipizap/FreeplaneJrubyInstaller/tree/master" BACKGROUND_COLOR="#97c7dc">
 <font SIZE="16" BOLD="true" ITALIC="true"/>
-<hook NAME="MapStyle">
+<hook NAME="MapStyle" zoom="0.909">
     <properties fit_to_viewport="false;" show_icon_for_attributes="true" show_note_icons="true"/>
 
 <map_styles>
@@ -101,7 +101,7 @@
 </html>
 
 </richcontent>
-<node TEXT="description" POSITION="left" ID="ID_1783847365" CREATED="1452181645299" MODIFIED="1459348924493">
+<node TEXT="description" POSITION="left" ID="ID_1783847365" CREATED="1452181645299" MODIFIED="1459761364561">
 <edge COLOR="#ff0000"/>
 <richcontent TYPE="NOTE">
 
@@ -125,7 +125,7 @@
 </richcontent>
 <node TEXT="A Freeplane addon to make simple and easy to install Jruby in Freeplane.&#xa;This addon is required to run ruby-scripts in Freeplane&#xa;You need Java 7 or latter to use it." ID="ID_173780973" CREATED="1452606062626" MODIFIED="1457623586359"/>
 </node>
-<node TEXT="changes" POSITION="left" ID="ID_865190944" CREATED="1452181645315" MODIFIED="1459348924496">
+<node TEXT="changes" POSITION="left" ID="ID_865190944" CREATED="1452181645315" MODIFIED="1459761364570">
 <edge COLOR="#0000ff"/>
 <richcontent TYPE="NOTE">
 
@@ -142,7 +142,7 @@
 
 </richcontent>
 </node>
-<node TEXT="license" FOLDED="true" POSITION="left" ID="ID_770313631" CREATED="1452181645330" MODIFIED="1459348924498">
+<node TEXT="license" FOLDED="true" POSITION="left" ID="ID_770313631" CREATED="1452181645330" MODIFIED="1459761364579">
 <edge COLOR="#00ff00"/>
 <richcontent TYPE="NOTE">
 
@@ -166,7 +166,7 @@
 </richcontent>
 <node TEXT="&#xa;This add-on is free software: you can redistribute it and/or modify&#xa;it under the terms of the GNU General Public License as published by&#xa;the Free Software Foundation, either version 2 of the License, or&#xa;(at your option) any later version.&#xa;&#xa;This program is distributed in the hope that it will be useful,&#xa;but WITHOUT ANY WARRANTY; without even the implied warranty of&#xa;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the&#xa;GNU General Public License for more details.&#xa;" ID="ID_772429614" CREATED="1452181645347" MODIFIED="1452181645352"/>
 </node>
-<node TEXT="preferences.xml" POSITION="left" ID="ID_257145989" CREATED="1452181645373" MODIFIED="1459348924500">
+<node TEXT="preferences.xml" POSITION="left" ID="ID_257145989" CREATED="1452181645373" MODIFIED="1459761364581">
 <edge COLOR="#ff00ff"/>
 <richcontent TYPE="NOTE">
 
@@ -176,17 +176,17 @@
   </head>
   <body>
     <p>
-      <font face="SansSerif, sans-serif" color="#000000">The child node contains the add-on configuration as an extension to mindmapmodemenu.xml (in Tools-&gt;Preferences-&gt;Add-ons). </font>
+      <font color="#000000" face="SansSerif, sans-serif">The child node contains the add-on configuration as an extension to mindmapmodemenu.xml (in Tools-&gt;Preferences-&gt;Add-ons). </font>
     </p>
     <p>
-      <font face="SansSerif, sans-serif" color="#000000">Every property in the configuration should receive a default value in <i>default.properties</i>&#160;node.</font>
+      <font color="#000000" face="SansSerif, sans-serif">Every property in the configuration should receive a default value in <i>default.properties</i>&#160;node.</font>
     </p>
   </body>
 </html>
 
 </richcontent>
 </node>
-<node TEXT="default.properties" POSITION="left" ID="ID_1531129391" CREATED="1452181645396" MODIFIED="1459348924502">
+<node TEXT="default.properties" POSITION="left" ID="ID_1531129391" CREATED="1452181645396" MODIFIED="1459761364582">
 <edge COLOR="#00ffff"/>
 <richcontent TYPE="NOTE">
 
@@ -203,7 +203,7 @@
 
 </richcontent>
 </node>
-<node TEXT="translations" POSITION="left" ID="ID_682619897" CREATED="1452181645404" MODIFIED="1459348924504">
+<node TEXT="translations" POSITION="left" ID="ID_682619897" CREATED="1452181645404" MODIFIED="1459761364604">
 <edge COLOR="#ffff00"/>
 <richcontent TYPE="NOTE">
 
@@ -230,14 +230,15 @@
 </html>
 
 </richcontent>
-<node TEXT="en" ID="ID_977191833" CREATED="1452181645411" MODIFIED="1452605948002">
+<node TEXT="en" ID="ID_977191833" CREATED="1452181645411" MODIFIED="1459761168450">
 <attribute_layout NAME_WIDTH="90.75 pt" VALUE_WIDTH="144.75 pt"/>
 <attribute NAME="addons.${name}" VALUE="FreeplaneJrubyInstaller"/>
+<attribute NAME="addons.test" VALUE="Test..."/>
 <attribute NAME="addons.jruby" VALUE="Jruby..."/>
 <attribute NAME="addons.installjruby" VALUE="Check/install Jruby version..."/>
 </node>
 </node>
-<node TEXT="deinstall" POSITION="left" ID="ID_1950369593" CREATED="1452181645420" MODIFIED="1459348924506">
+<node TEXT="deinstall" POSITION="left" ID="ID_1950369593" CREATED="1452181645420" MODIFIED="1459761364606">
 <edge COLOR="#7c0000"/>
 <richcontent TYPE="NOTE">
 
@@ -258,8 +259,9 @@
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}/scripts/FreeplaneJrubyInstaller.groovy"/>
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}/lib/FreeplaneJrubyInstaller.jar"/>
 <attribute NAME="delete" VALUE="${installationbase}/scripts/show_jruby_version.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/${name}/scripts/test.rb"/>
 </node>
-<node TEXT="scripts" POSITION="right" ID="ID_945586545" CREATED="1452181645434" MODIFIED="1459348924510">
+<node TEXT="scripts" POSITION="right" ID="ID_945586545" CREATED="1452181645434" MODIFIED="1459761364626">
 <edge COLOR="#00007c"/>
 <richcontent TYPE="NOTE">
 
@@ -395,8 +397,20 @@
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="true"/>
 </node>
+<node TEXT="test.rb" ID="ID_576239056" CREATED="1459761022373" MODIFIED="1459761343418">
+<attribute_layout NAME_WIDTH="209.25 pt" VALUE_WIDTH="209.25 pt"/>
+<attribute NAME="menuTitleKey" VALUE="addons.test"/>
+<attribute NAME="menuLocation" VALUE="main_menu_scripting/addons.jruby"/>
+<attribute NAME="executionMode" VALUE="on_single_node"/>
+<attribute NAME="keyboardShortcut" VALUE=""/>
+<attribute NAME="execute_scripts_without_asking" VALUE="true"/>
+<attribute NAME="execute_scripts_without_file_restriction" VALUE="true"/>
+<attribute NAME="execute_scripts_without_write_restriction" VALUE="true"/>
+<attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
+<attribute NAME="execute_scripts_without_network_restriction" VALUE="true"/>
 </node>
-<node TEXT="lib" POSITION="right" ID="ID_638696808" CREATED="1452181645454" MODIFIED="1459348924616">
+</node>
+<node TEXT="lib" POSITION="right" ID="ID_638696808" CREATED="1452181645454" MODIFIED="1459761365510">
 <edge COLOR="#007c00"/>
 <richcontent TYPE="NOTE">
 
@@ -438,7 +452,7 @@
 </richcontent>
 <node TEXT="FreeplaneJrubyInstaller.jar" ID="ID_1656587394" CREATED="1452184337769" MODIFIED="1452184337771"/>
 </node>
-<node TEXT="zips" POSITION="right" ID="ID_682479777" CREATED="1452181645464" MODIFIED="1459348924622">
+<node TEXT="zips" POSITION="right" ID="ID_682479777" CREATED="1452181645464" MODIFIED="1459761365530">
 <edge COLOR="#7c007c"/>
 <richcontent TYPE="NOTE">
 
@@ -479,7 +493,7 @@
 
 </richcontent>
 </node>
-<node TEXT="images" POSITION="right" ID="ID_1796134520" CREATED="1452181645474" MODIFIED="1459348924626">
+<node TEXT="images" POSITION="right" ID="ID_1796134520" CREATED="1452181645474" MODIFIED="1459761365536">
 <edge COLOR="#007c7c"/>
 <richcontent TYPE="NOTE">
 
