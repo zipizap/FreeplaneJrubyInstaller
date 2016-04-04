@@ -1,7 +1,7 @@
 require_relative 'only_gem_home.rb'      # From now on, you can require the gems installed in gem_home (and only those)
 
 
-class ParallelPry
+class RubyLiveDebugger
   
   def self.open_debug_here(my_binding)
     new(my_binding)

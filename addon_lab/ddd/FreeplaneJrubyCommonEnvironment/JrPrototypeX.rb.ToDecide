@@ -2,7 +2,7 @@ require_relative 'lib/freeplane_jruby_environment.rb'
 # The 'freeplane_jruby_environment.rb' file enables the following:
 # - From now on, you can require the gems installed in "gem_home" (and only those)
 # - Enables these omnipresent-global-methods: node, c, ui, logger, htmlUtils, textUtils, menuUtils, config, invokeLater 
-# - Enables ParallelPry.open_debug_here(binding)
+# - Enables RubyLiveDebugger.open_debug_here(binding)
 
 
 
@@ -27,7 +27,7 @@ require_relative 'lib/freeplane_jruby_environment.rb'
 ##
 ## Put in your program the following:
 #
-#      ParallelPry.open_debug_here(binding)
+#      RubyLiveDebugger.open_debug_here(binding)
 #
 #      >>debug-window>>
 #
@@ -48,7 +48,7 @@ require_relative 'lib/freeplane_jruby_environment.rb'
 ##
 ## As an alternative you can open the debug-window in a new separate thread (which is not the Swing EDT Thread), which allows to change the Freeplane-GUI and see the changes instantaneously (no freezing) in the Freeplane-GUI:
 #      
-#      Thread.new { ParallelPry.open_debug_here(binding) }
+#      Thread.new { RubyLiveDebugger.open_debug_here(binding) }
 #
 #      >>debug-nonEDT>>
 #
@@ -69,7 +69,7 @@ require_relative 'lib/freeplane_jruby_environment.rb'
 #
 ##      So, using invokeLater{} you can execute debug commands and see the results of each command reflected almost instantaneously in freeplane. Its a great feeling, live-coding inside a running freeplane program :)
 
-Thread.new { ParallelPry.open_debug_here(binding) }  # terminate with !!@ (not 'exit' nor 'quit')
+Thread.new { RubyLiveDebugger.open_debug_here(binding) }  # terminate with !!@ (not 'exit' nor 'quit')
 
 exit 0
 
