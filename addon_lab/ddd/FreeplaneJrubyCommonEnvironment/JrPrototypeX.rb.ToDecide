@@ -1,0 +1,75 @@
+require_relative 'lib/freeplane_jruby_environment.rb'
+# The 'freeplane_jruby_environment.rb' file enables the following:
+# - From now on, you can require the gems installed in "gem_home" (and only those)
+# - Enables these omnipresent-global-methods: node, c, ui, logger, htmlUtils, textUtils, menuUtils, config, invokeLater 
+# - Enables RubyLiveDebugger.open_debug_here(binding)
+
+
+
+
+
+##### Examples #####
+
+## change the text of node (beware to use a *string* which may not be automatically interpreted by Freeplane as numbers/dates)
+#node.text="The current time is: #{Time.now.to_s}"
+
+## toggle folding of node 
+#node.folded = !node.folded?
+
+## create child nodes, with time
+#10.times { |x| sleep 0.1; invokeLater { (node.createChild).text="#{Time.now}" }}
+
+## change the node text with time 
+#(1..10).each { |x| sleep 0.1; invokeLater { node.text="aa #{x} aa" }}
+
+
+##### LIVE DEBUG OF RUBY SCRIPTS #####
+##
+## Put in your program the following:
+#
+#      RubyLiveDebugger.open_debug_here(binding)
+#
+#      >>debug-window>>
+#
+## And when your ruby program executes it, the program will block and open for you an interactive debug-window in that point of the program, with all the objects,variables,contexts available for you to interact with on-the-fly
+## In the debug window, you can use TAB to autocomplete, up/down command-history, _ which represents the return value from last executed command in debug-window, ... Have a look at the gem remote-pry: thats whats being executed in the debug-window.
+##
+## To exit from debug-window, write !!@ (and not exit nor quit). Do not close the window in the window-close-button nor in any other way because although the window closes, a server-background-process will continue to execute and your ruby script will continue to be blocked but not interactable anymore
+## So remember: the interactive debug-window must only be terminated be entering the command !!@  (and not exit, nor quit, nor anything else!)
+#
+#      >>debug-window>> !!@
+#
+##
+## Note that by default Freeplane executes ruby scripts inside the Swing-EDT-Thread, and so the Freeplane-GUI-window freezes (does not update) until the ruby script finishes executing.
+## So opening a debug window like above (inside EDT Thread) will allow you to programatically see/change the java objects of Freeplane, but you will not see any visual changes reflected in the Freeplane-GUI-window until you exit from the debug window (with !!@) *and* until your ruby script finishes executing 
+##
+##
+##
+##
+## As an alternative you can open the debug-window in a new separate thread (which is not the Swing EDT Thread), which allows to change the Freeplane-GUI and see the changes instantaneously (no freezing) in the Freeplane-GUI:
+#      
+#      Thread.new { RubyLiveDebugger.open_debug_here(binding) }
+#
+#      >>debug-nonEDT>>
+#
+## Doing debug in non-EDT-Thread comes with great advantages but also certain restrains that you should keep in mind:
+##   a) The code you execute inside the debug-window is executing in an independent thread (not inside Swing-EDT-Thread)
+##   b) You can read freeplane-objects
+#
+#      >>debug-nonEDT>> puts node.text
+#
+##   c) You can not write/change/update freeplane-objects from this non-EDT-Thread DIRECTLY. If you did it, then sooner or later you would be creeped by clueless-nasty-java-errors related to non-safe-multithreaded-method-calls
+#
+#      >>debug-nonEDT>> node.text = "DONT DO THIS!!!! IT WILL BRING YOU NON-REPRODUCIBLE CLUELESS-NASTY-JAVA-ERRORS"
+#
+##   d) You can write/change/update freeplane-objects from this non-EDT-Thread by using an invokeLater{} block. 
+##      The commands passed into the invokeLater{} block will be queued behind-the-scenes to be executed in the EDT-Thread, and its results will be instantaneously visible in the freeplane-GUI. 
+#
+#      >>debug-nonEDT>> invokeLater { node.text = "Hi, you can see me change in realtime in the freeplane GUI! This is the only correct way to change freeplane-objects :)" }
+#
+##      So, using invokeLater{} you can execute debug commands and see the results of each command reflected almost instantaneously in freeplane. Its a great feeling, live-coding inside a running freeplane program :)
+
+Thread.new { RubyLiveDebugger.open_debug_here(binding) }  # terminate with !!@ (not 'exit' nor 'quit')
+
+exit 0
+
