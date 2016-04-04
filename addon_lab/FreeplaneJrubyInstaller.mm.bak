@@ -1,6 +1,6 @@
 <map version="freeplane 1.5.6">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="FreeplaneJrubyInstaller" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1459764247062" LINK="https://github.com/zipizap/FreeplaneJrubyInstaller/tree/master" BACKGROUND_COLOR="#97c7dc">
+<node TEXT="FreeplaneJrubyInstaller" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1459768694952" LINK="https://github.com/zipizap/FreeplaneJrubyInstaller/tree/master" BACKGROUND_COLOR="#97c7dc">
 <font SIZE="16" BOLD="true" ITALIC="true"/>
 <hook NAME="MapStyle" zoom="0.909">
     <properties fit_to_viewport="false;" show_icon_for_attributes="true" show_note_icons="true"/>
@@ -99,8 +99,9 @@
     </ul>
   </body>
 </html>
+
 </richcontent>
-<node TEXT="description" POSITION="left" ID="ID_1783847365" CREATED="1452181645299" MODIFIED="1459764247109">
+<node TEXT="description" POSITION="left" ID="ID_1783847365" CREATED="1452181645299" MODIFIED="1459768694993">
 <edge COLOR="#ff0000"/>
 <richcontent TYPE="NOTE">
 
@@ -120,10 +121,11 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="A Freeplane addon to make simple and easy to install Jruby in Freeplane.&#xa;This addon is required to run ruby-scripts in Freeplane&#xa;You need Java 7 or latter to use it." ID="ID_173780973" CREATED="1452606062626" MODIFIED="1457623586359"/>
 </node>
-<node TEXT="changes" POSITION="left" ID="ID_865190944" CREATED="1452181645315" MODIFIED="1459764247110">
+<node TEXT="changes" POSITION="left" ID="ID_865190944" CREATED="1452181645315" MODIFIED="1459768694996">
 <edge COLOR="#0000ff"/>
 <richcontent TYPE="NOTE">
 
@@ -137,9 +139,10 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 </node>
-<node TEXT="license" FOLDED="true" POSITION="left" ID="ID_770313631" CREATED="1452181645330" MODIFIED="1459764247114">
+<node TEXT="license" FOLDED="true" POSITION="left" ID="ID_770313631" CREATED="1452181645330" MODIFIED="1459768694997">
 <edge COLOR="#00ff00"/>
 <richcontent TYPE="NOTE">
 
@@ -159,10 +162,11 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="&#xa;This add-on is free software: you can redistribute it and/or modify&#xa;it under the terms of the GNU General Public License as published by&#xa;the Free Software Foundation, either version 2 of the License, or&#xa;(at your option) any later version.&#xa;&#xa;This program is distributed in the hope that it will be useful,&#xa;but WITHOUT ANY WARRANTY; without even the implied warranty of&#xa;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the&#xa;GNU General Public License for more details.&#xa;" ID="ID_772429614" CREATED="1452181645347" MODIFIED="1452181645352"/>
 </node>
-<node TEXT="preferences.xml" POSITION="left" ID="ID_257145989" CREATED="1452181645373" MODIFIED="1459764247117">
+<node TEXT="preferences.xml" POSITION="left" ID="ID_257145989" CREATED="1452181645373" MODIFIED="1459768695001">
 <edge COLOR="#ff00ff"/>
 <richcontent TYPE="NOTE">
 
@@ -179,9 +183,10 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 </node>
-<node TEXT="default.properties" POSITION="left" ID="ID_1531129391" CREATED="1452181645396" MODIFIED="1459764247118">
+<node TEXT="default.properties" POSITION="left" ID="ID_1531129391" CREATED="1452181645396" MODIFIED="1459768695004">
 <edge COLOR="#00ffff"/>
 <richcontent TYPE="NOTE">
 
@@ -195,9 +200,10 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 </node>
-<node TEXT="translations" POSITION="left" ID="ID_682619897" CREATED="1452181645404" MODIFIED="1459764247124">
+<node TEXT="translations" POSITION="left" ID="ID_682619897" CREATED="1452181645404" MODIFIED="1459768695006">
 <edge COLOR="#ffff00"/>
 <richcontent TYPE="NOTE">
 
@@ -222,6 +228,7 @@
     </ul>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="en" ID="ID_977191833" CREATED="1452181645411" MODIFIED="1459765866675">
 <attribute_layout NAME_WIDTH="211.5 pt" VALUE_WIDTH="219.0 pt"/>
@@ -234,7 +241,7 @@
 <attribute NAME="addons.ruby_live_debugger_with_gui_paralell" VALUE="Debug in paralell thread (GUI responsive)"/>
 </node>
 </node>
-<node TEXT="deinstall" POSITION="left" ID="ID_1950369593" CREATED="1452181645420" MODIFIED="1459764263252">
+<node TEXT="deinstall" POSITION="left" ID="ID_1950369593" CREATED="1452181645420" MODIFIED="1459768711057">
 <edge COLOR="#7c0000"/>
 <richcontent TYPE="NOTE">
 
@@ -248,6 +255,7 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <attribute_layout NAME_WIDTH="32.25 pt" VALUE_WIDTH="359.25 pt"/>
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}.script.xml"/>
@@ -257,8 +265,329 @@
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}/scripts/test.rb"/>
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}/scripts/ruby_live_debugger_with_gui_freezed.rb"/>
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}/scripts/ruby_live_debugger_with_gui_paralell.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/lib/freeplane_jruby_environment.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/lib/commons-lang3-3.4.jar"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/lib/ruby_live_debugger.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/lib/freeplane.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/lib/only_gem_home.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem.bat"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/cache/spoon-0.0.4.gem"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/cache/coderay-1.1.0.gem"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/cache/ffi-1.9.10-java.gem"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/cache/wirble-0.1.3.gem"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/cache/pry-0.10.3-java.gem"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/cache/slop-3.6.0.gem"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/cache/awesome_print-1.6.1.gem"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/cache/pry-remote-0.1.8.gem"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/cache/method_source-0.8.2.gem"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/specifications/wirble-0.1.3.gemspec"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/specifications/slop-3.6.0.gemspec"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/specifications/method_source-0.8.2.gemspec"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/specifications/ffi-1.9.10-java.gemspec"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/specifications/pry-0.10.3-java.gemspec"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/specifications/awesome_print-1.6.1.gemspec"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/specifications/pry-remote-0.1.8.gemspec"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/specifications/spoon-0.0.4.gemspec"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/specifications/coderay-1.1.0.gemspec"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/bin/pry-remote"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/bin/coderay.bat"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/bin/pry-remote.bat"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/bin/pry.bat"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/bin/pry"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/bin/coderay"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/wirble-0.1.3/lib/wirble.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/wirble-0.1.3/README"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/wirble-0.1.3/Rakefile"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/wirble-0.1.3/ChangeLog"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/wirble-0.1.3/setup.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/wirble-0.1.3/_irbrc"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/wirble-0.1.3/COPYING"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/wirble-0.1.3/wirble.gemspec"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/slop-3.6.0/lib/slop.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/slop-3.6.0/lib/slop/option.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/slop-3.6.0/lib/slop/commands.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/slop-3.6.0/README.md"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/slop-3.6.0/Rakefile"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/slop-3.6.0/Gemfile"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/slop-3.6.0/test/slop_test.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/slop-3.6.0/test/option_test.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/slop-3.6.0/test/helper.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/slop-3.6.0/test/commands_test.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/slop-3.6.0/LICENSE"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/slop-3.6.0/slop.gemspec"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/slop-3.6.0/CHANGES.md"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-remote-0.1.8/lib/pry-remote.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-remote-0.1.8/README.md"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-remote-0.1.8/bin/pry-remote"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-remote-0.1.8/LICENSE"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/method_source-0.8.2/lib/method_source.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/method_source-0.8.2/lib/method_source/code_helpers.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/method_source-0.8.2/lib/method_source/source_location.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/method_source-0.8.2/lib/method_source/version.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/method_source-0.8.2/README.markdown"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/method_source-0.8.2/Rakefile"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/method_source-0.8.2/Gemfile"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/method_source-0.8.2/method_source.gemspec"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/method_source-0.8.2/test/test_helper.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/method_source-0.8.2/test/test_code_helpers.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/method_source-0.8.2/test/test.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/method_source-0.8.2/LICENSE"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/scanner.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/scanners/sass.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/scanners/go.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/scanners/java/builtin_types.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/scanners/java_script.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/scanners/php.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/scanners/json.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/scanners/cpp.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/scanners/erb.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/scanners/c.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/scanners/html.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/scanners/ruby.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/scanners/taskpaper.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/scanners/css.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/scanners/lua.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/scanners/groovy.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/scanners/xml.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/scanners/java.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/scanners/ruby/string_state.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/scanners/ruby/patterns.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/scanners/delphi.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/scanners/clojure.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/scanners/raydebug.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/scanners/sql.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/scanners/python.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/scanners/haml.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/scanners/text.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/scanners/diff.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/scanners/debug.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/scanners/_map.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/scanners/yaml.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/duo.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/token_kinds.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/tokens_proxy.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/encoder.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/styles/alpha.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/styles/_map.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/for_redcloth.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/style.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/helpers/word_list.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/helpers/file_type.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/helpers/plugin.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/tokens.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/version.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/encoders/debug_lint.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/encoders/token_kind_filter.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/encoders/html/output.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/encoders/html/css.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/encoders/html/numbering.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/encoders/count.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/encoders/comment_filter.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/encoders/json.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/encoders/span.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/encoders/filter.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/encoders/terminal.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/encoders/lint.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/encoders/html.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/encoders/div.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/encoders/xml.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/encoders/lines_of_code.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/encoders/text.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/encoders/page.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/encoders/statistic.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/encoders/debug.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/encoders/_map.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/encoders/null.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/lib/coderay/encoders/yaml.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/Rakefile"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/test/functional/suite.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/test/functional/basic.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/test/functional/for_redcloth.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/test/functional/examples.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/bin/coderay"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/coderay-1.1.0/README_INDEX.rdoc"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/spoon-0.0.4/lib/spoon.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/spoon-0.0.4/lib/spoon/windows.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/spoon-0.0.4/lib/spoon/unix.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/spoon-0.0.4/spoon.gemspec"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/spoon-0.0.4/LICENSE"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/spoon-0.0.4/examples/vi.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/spoon-0.0.4/examples/ls.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/awesome_print-1.6.1/lib/ap.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/awesome_print-1.6.1/lib/awesome_print.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/awesome_print-1.6.1/lib/awesome_print/formatter.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/awesome_print-1.6.1/lib/awesome_print/inspector.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/awesome_print-1.6.1/lib/awesome_print/core_ext/object.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/awesome_print-1.6.1/lib/awesome_print/core_ext/logger.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/awesome_print-1.6.1/lib/awesome_print/core_ext/string.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/awesome_print-1.6.1/lib/awesome_print/core_ext/class.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/awesome_print-1.6.1/lib/awesome_print/core_ext/array.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/awesome_print-1.6.1/lib/awesome_print/core_ext/kernel.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/awesome_print-1.6.1/lib/awesome_print/core_ext/method.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/awesome_print-1.6.1/lib/awesome_print/ext/sequel.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/awesome_print-1.6.1/lib/awesome_print/ext/mongoid.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/awesome_print-1.6.1/lib/awesome_print/ext/no_brainer.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/awesome_print-1.6.1/lib/awesome_print/ext/nokogiri.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/awesome_print-1.6.1/lib/awesome_print/ext/action_view.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/awesome_print-1.6.1/lib/awesome_print/ext/ripple.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/awesome_print-1.6.1/lib/awesome_print/ext/mongo_mapper.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/awesome_print-1.6.1/lib/awesome_print/ext/active_support.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/awesome_print-1.6.1/lib/awesome_print/ext/ostruct.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/awesome_print-1.6.1/lib/awesome_print/ext/active_record.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/awesome_print-1.6.1/lib/awesome_print/version.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/awesome_print-1.6.1/README.md"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/awesome_print-1.6.1/CHANGELOG"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/awesome_print-1.6.1/Rakefile"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/awesome_print-1.6.1/Gemfile"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/awesome_print-1.6.1/Appraisals"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/awesome_print-1.6.1/LICENSE"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/awesome_print-1.6.1/spec/active_record_helper.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/awesome_print-1.6.1/spec/misc_spec.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/awesome_print-1.6.1/spec/methods_spec.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/awesome_print-1.6.1/spec/formats_spec.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/awesome_print-1.6.1/spec/objects_spec.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/awesome_print-1.6.1/spec/colors_spec.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/awesome_print-1.6.1/spec/spec_helper.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/awesome_print-1.6.1/Gemfile.lock"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/awesome_print-1.6.1/CONTRIBUTING.md"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/last_exception.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/editor.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/code_object.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/gem_install.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/pry_backtrace.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/change_prompt.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/fix_indent.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/install_command.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/disable_pry.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/toggle_color.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/cat.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/show_source.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/code_collector.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/help.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/reset.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/show_input.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/import_set.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/gem_list.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/pry_version.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/find_method.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/gem_open.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/jump_to.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/edit/exception_patcher.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/edit/file_and_line_locator.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/bang_pry.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/switch_to.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/nesting.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/cat/file_formatter.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/cat/exception_formatter.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/cat/abstract_formatter.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/cat/input_expression_formatter.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/ri.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/watch_expression/expression.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/gist.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/cd.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/gem_cd.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/list_inspectors.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/amend_line.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/reload_code.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/ls/constants.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/ls/self_methods.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/ls/formatter.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/ls/local_names.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/ls/jruby_hacks.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/ls/grep.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/ls/ls_entity.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/ls/methods_helper.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/ls/instance_vars.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/ls/local_vars.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/ls/globals.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/ls/methods.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/ls/interrogatable.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/change_inspector.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/disabled_commands.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/save_file.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/easter_eggs.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/list_prompts.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/play.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/exit_program.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/simple_prompt.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/watch_expression.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/exit_all.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/stat.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/hist.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/wtf.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/shell_mode.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/shell_command.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/edit.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/show_doc.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/bang.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/whereami.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/ls.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/show_info.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/raise_up.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands/exit.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/wrapped_module.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/method/weird_method_locator.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/method/disowned.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/method/patcher.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/output.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/history.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/inspector.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/prompt.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/config/convenience.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/config/default.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/config/behavior.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/command_set.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/plugins.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/command.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/pager.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/exceptions.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/rbx_path.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/repl_file_loader.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/pry_class.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/terminal.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/rubygem.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/cli.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/history_array.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/test/helper.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/input_lock.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/pry_instance.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/code/code_file.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/code/code_range.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/code/loc.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/object_path.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/commands.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/hooks.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/color_printer.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/core_extensions.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/input_completer.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/config.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/method.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/helpers.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/helpers/base_helpers.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/helpers/command_helpers.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/helpers/table.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/helpers/documentation_helpers.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/helpers/options_helpers.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/helpers/text.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/version.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/code.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/indent.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/module_candidate.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry/repl.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/lib/pry.rb"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/README.md"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/bin/pry"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/LICENSE"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/pry-0.10.3-java/CHANGELOG.md"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/ffi-1.9.10-java/README.md"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/ffi-1.9.10-java/Rakefile"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/ffi-1.9.10-java/COPYING"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem_home/gems/ffi-1.9.10-java/LICENSE"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/JrPrototypeX.rb.ToDecide"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/freeplaneJrubyInstaller/FreeplaneJrubyCommonEnvironment/gem.sh"/>
 </node>
-<node TEXT="scripts" POSITION="right" ID="ID_945586545" CREATED="1452181645434" MODIFIED="1459764247133">
+<node TEXT="scripts" POSITION="right" ID="ID_945586545" CREATED="1452181645434" MODIFIED="1459768695016">
 <edge COLOR="#00007c"/>
 <richcontent TYPE="NOTE">
 
@@ -380,6 +709,7 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="FreeplaneJrubyInstaller.groovy" ID="ID_1962771958" CREATED="1452183768458" MODIFIED="1457620572834">
 <attribute_layout NAME_WIDTH="209.25 pt" VALUE_WIDTH="209.25 pt"/>
@@ -418,7 +748,7 @@
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="true"/>
 </node>
 </node>
-<node TEXT="lib" POSITION="right" ID="ID_638696808" CREATED="1452181645454" MODIFIED="1459764250295">
+<node TEXT="lib" POSITION="right" ID="ID_638696808" CREATED="1452181645454" MODIFIED="1459768700795">
 <edge COLOR="#007c00"/>
 <richcontent TYPE="NOTE">
 
@@ -456,10 +786,11 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="FreeplaneJrubyInstaller.jar" ID="ID_1656587394" CREATED="1452184337769" MODIFIED="1452184337771"/>
 </node>
-<node TEXT="zips" POSITION="right" ID="ID_682479777" CREATED="1452181645464" MODIFIED="1459764250303">
+<node TEXT="zips" POSITION="right" ID="ID_682479777" CREATED="1452181645464" MODIFIED="1459768700817">
 <edge COLOR="#7c007c"/>
 <richcontent TYPE="NOTE">
 
@@ -497,9 +828,11 @@
     </p>
   </body>
 </html>
+
 </richcontent>
+<node TEXT="addons" ID="ID_1728579441" CREATED="1459768654398" MODIFIED="1459768655907"/>
 </node>
-<node TEXT="images" POSITION="right" ID="ID_1796134520" CREATED="1452181645474" MODIFIED="1459764250307">
+<node TEXT="images" POSITION="right" ID="ID_1796134520" CREATED="1452181645474" MODIFIED="1459768700890">
 <edge COLOR="#007c7c"/>
 <richcontent TYPE="NOTE">
 
@@ -533,6 +866,7 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
