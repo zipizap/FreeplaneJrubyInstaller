@@ -1,6 +1,6 @@
 # FreeplaneJrubyInstaller
 
-A Freeplane addon to make simple and easy to install Jruby in Freeplane (needed to run (j)ruby scripts in freeplane) 
+A Freeplane addon to **add support for .rb (ruby) scripts in Freeplane**, so that you can use .groovy  .js **and .rb** scripts
 
-See more at http://zipizap.github.io/FreeplaneJrubyInstaller
+See more at ~~http://zipizap.github.io/FreeplaneJrubyInstaller~~   http://freeplane.sourceforge.net/wiki/index.php/FreeplaneJrubyInstaller_Addon
 
