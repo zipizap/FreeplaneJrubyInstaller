@@ -4,5 +4,4 @@ A Freeplane addon to **add support for .rb (ruby) scripts in Freeplane**, so tha
 
 See more at:
   - http://freeplane.sourceforge.net/wiki/index.php/FreeplaneJrubyInstaller_Addon
-  - ~~http://zipizap.github.io/FreeplaneJrubyInstaller~~
 
