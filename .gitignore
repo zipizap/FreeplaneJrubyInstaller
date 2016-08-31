@@ -1,5 +1,2 @@
-test_userdir/**/lib/jruby-complete*.jar
-test_userdir/**/logs/log.*
-test_userdir/**/.backup
-test_userdir/**/single_instance.lock
+test_userdir/
 
