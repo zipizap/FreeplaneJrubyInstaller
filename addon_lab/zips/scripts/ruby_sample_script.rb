@@ -3,9 +3,9 @@
 Hello curious-mind :)
 
 A ruby script for freeplane, is a *ruby* program that will use/call some Java-objects which are made available by Freeplane (freeplane-java-objects)
-The freeplane-java-objects are the same ones that are used for groovy (and .js) scripts, and are documented in the Freeplane Scripting Api [A]
+The freeplane-java-objects are the same ones that are used for groovy (and .js) scripts, and are documented in the Freeplane Scripting Api (see link bellow),
 where you can see their methods and what they do. The Freeplane Scripting Api should be open by your side while making freeplane scripts.
-Freeplane is a java program, but jruby can run ruby scripts that use freeplane-java-objects
+Freeplane is a java program, but by using the jruby-complete.jar then Freeplane becomes capable of running ruby scripts that can use the freeplane-java-objects.
 
 > NOTE: About Ruby, Jruby and java-objects
 > The ruby language cannot use java-objects out-of-the-box, but the Jruby-complete.jar adds some special-jruby-magic that makes possible for the ruby programs executed by the jruby-complete.jar to 
@@ -18,16 +18,15 @@ To make ruby scripts for freeplane, the ideal would be to:
    2.2 know what are the freeplane-java-objects that you have available (see the Freeplane-scripting-API)
 
 
-Dont be afraid, because ruby is a very simple language so (1.) will be easy - just search google for ruby tutorial and pick your favorite.
-Also you can just skip over (2.1) and (2.2) if you just follow other-people examples and do your bit of try-and-error.
-Also, as you will notice, (2.1) is sometimes very similar to how Groovy calls java-objects (most of the time)
+Dont be afraid, because ruby is a very simple language so (1.) will be easy (search google for ruby tutorial and pick your favorite).
+And also because you can go over (2.1) and (2.2) if you just follow other-people examples and do your bit of try-and-error.
+Also, as you will notice, (2.1) is sometimes very similar to how Groovy calls java-objects (but not always!!)
 Now go and make worderful things :)
 
 
 
 
-
-Zipizap, July 2016
+Zipizap, April 2016
 
 
 
@@ -36,13 +35,12 @@ Zipizap, July 2016
 
 ### Usefull links
 
-# [A] The Freeplane Scripting API   http://freeplane.sourceforge.net/doc/api/    
-#
-#     Here you search and find all the freeplane-java-objects and it's methods, that freeplane makes available to be used in scripts
-#     The most interesting ones, are:
-#       Proxy.Node        (node)       http://freeplane.sourceforge.net/doc/api/org/freeplane/plugin/script/proxy/Proxy.Node.html
-#       Proxy.Controller  (c)          http://freeplane.sourceforge.net/doc/api/org/freeplane/plugin/script/proxy/Proxy.Controller.html
-#       Proxy.Map                      http://freeplane.sourceforge.net/doc/api/org/freeplane/plugin/script/proxy/Proxy.Map.html
+## The Freeplane Scripting API: http://freeplane.sourceforge.net/doc/api/
+# Here you search and find all the freeplane-java-objects and itts methods, that freeplane makes available to be used in scripts
+# The most interesting ones, are:
+#   Proxy.Node (aka node)       http://freeplane.sourceforge.net/doc/api/org/freeplane/plugin/script/proxy/Proxy.Node.html
+#   Proxy.Controller (aka c)    http://freeplane.sourceforge.net/doc/api/org/freeplane/plugin/script/proxy/Proxy.Controller.html
+#   Proxy.Map                   http://freeplane.sourceforge.net/doc/api/org/freeplane/plugin/script/proxy/Proxy.Map.html
 
 ## Ruby QuickReference: http://www.zenspider.com/Languages/Ruby/QuickRef.html
 # A good resume of ruby language, to consult as needed
@@ -108,9 +106,10 @@ ui.informationMessage(the_node_link_as_text)
 
 require "freeplane_jruby_common_environment.rb"
 # The 'freeplane_jruby_environment.rb' file enables the following:
-# # [1] From now on, you can require the gems installed in "gem_home" (and only those)
-# # [2] Enables these omnipresent-global-methods: node, c, ui, logger, htmlUtils, textUtils, menuUtils, config, invokeLater
-# # [3] Enables RubyLiveDebugger.open_debug_here(binding)
+# # 1) From now on, you can require the gems installed in "gem_home" (and only those)
+# # 2) Enables these omnipresent-global-methods: node, c, ui, logger, htmlUtils, textUtils, menuUtils, config, invokeLater
+# # 3) Enables RubyLiveDebugger.open_debug_here(binding)
+
 
 
 
