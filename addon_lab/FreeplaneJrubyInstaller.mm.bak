@@ -1,6 +1,6 @@
 <map version="freeplane 1.5.9">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="FreeplaneJrubyInstaller" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1463993271525" LINK="https://github.com/zipizap/FreeplaneJrubyInstaller/tree/master" BACKGROUND_COLOR="#97c7dc">
+<node TEXT="FreeplaneJrubyInstaller" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1463993298770" LINK="https://github.com/zipizap/FreeplaneJrubyInstaller/tree/master" BACKGROUND_COLOR="#97c7dc">
 <font SIZE="16" BOLD="true" ITALIC="true"/>
 <hook NAME="MapStyle" zoom="0.909">
     <properties show_icon_for_attributes="true" fit_to_viewport="false;" show_note_icons="true"/>
@@ -99,8 +99,9 @@
     </ul>
   </body>
 </html>
+
 </richcontent>
-<node TEXT="description" FOLDED="true" POSITION="left" ID="ID_1783847365" CREATED="1452181645299" MODIFIED="1459865684640">
+<node TEXT="description" FOLDED="true" POSITION="left" ID="ID_1783847365" CREATED="1452181645299" MODIFIED="1463993298944">
 <edge COLOR="#ff0000"/>
 <richcontent TYPE="NOTE">
 
@@ -120,10 +121,11 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="A Freeplane addon to make simple and easy to install Jruby in Freeplane.&#xa;This addon is required to run ruby-scripts in Freeplane&#xa;You need Java 7 or latter to use it." ID="ID_173780973" CREATED="1452606062626" MODIFIED="1457623586359"/>
 </node>
-<node TEXT="changes" POSITION="left" ID="ID_865190944" CREATED="1452181645315" MODIFIED="1459865684642">
+<node TEXT="changes" POSITION="left" ID="ID_865190944" CREATED="1452181645315" MODIFIED="1463993298945">
 <edge COLOR="#0000ff"/>
 <richcontent TYPE="NOTE">
 
@@ -137,9 +139,10 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 </node>
-<node TEXT="license" POSITION="left" ID="ID_770313631" CREATED="1452181645330" MODIFIED="1459865684644">
+<node TEXT="license" POSITION="left" ID="ID_770313631" CREATED="1452181645330" MODIFIED="1463993298952">
 <edge COLOR="#00ff00"/>
 <richcontent TYPE="NOTE">
 
@@ -159,10 +162,11 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="&#xa;This add-on is free software: you can redistribute it and/or modify&#xa;it under the terms of the GNU General Public License as published by&#xa;the Free Software Foundation, either version 2 of the License, or&#xa;(at your option) any later version.&#xa;&#xa;This program is distributed in the hope that it will be useful,&#xa;but WITHOUT ANY WARRANTY; without even the implied warranty of&#xa;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the&#xa;GNU General Public License for more details.&#xa;" ID="ID_772429614" CREATED="1452181645347" MODIFIED="1452181645352"/>
 </node>
-<node TEXT="preferences.xml" POSITION="left" ID="ID_257145989" CREATED="1452181645373" MODIFIED="1459865684647">
+<node TEXT="preferences.xml" POSITION="left" ID="ID_257145989" CREATED="1452181645373" MODIFIED="1463993298957">
 <edge COLOR="#ff00ff"/>
 <richcontent TYPE="NOTE">
 
@@ -179,9 +183,10 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 </node>
-<node TEXT="default.properties" POSITION="left" ID="ID_1531129391" CREATED="1452181645396" MODIFIED="1459865684649">
+<node TEXT="default.properties" POSITION="left" ID="ID_1531129391" CREATED="1452181645396" MODIFIED="1463993298959">
 <edge COLOR="#00ffff"/>
 <richcontent TYPE="NOTE">
 
@@ -195,9 +200,10 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 </node>
-<node TEXT="translations" POSITION="left" ID="ID_682619897" CREATED="1452181645404" MODIFIED="1459865684653">
+<node TEXT="translations" POSITION="left" ID="ID_682619897" CREATED="1452181645404" MODIFIED="1463993298963">
 <edge COLOR="#ffff00"/>
 <richcontent TYPE="NOTE">
 
@@ -222,6 +228,7 @@
     </ul>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="en" ID="ID_977191833" CREATED="1452181645411" MODIFIED="1459765866675">
 <attribute_layout NAME_WIDTH="211.5 pt" VALUE_WIDTH="219.0 pt"/>
@@ -234,7 +241,7 @@
 <attribute NAME="addons.ruby_live_debugger_with_gui_paralell" VALUE="Debug in paralell thread (GUI responsive)"/>
 </node>
 </node>
-<node TEXT="deinstall" POSITION="left" ID="ID_1950369593" CREATED="1452181645420" MODIFIED="1459865684654">
+<node TEXT="deinstall" POSITION="left" ID="ID_1950369593" CREATED="1452181645420" MODIFIED="1463993298965">
 <edge COLOR="#7c0000"/>
 <richcontent TYPE="NOTE">
 
@@ -248,6 +255,7 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <attribute_layout NAME_WIDTH="32.25 pt" VALUE_WIDTH="359.25 pt"/>
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}.script.xml"/>
@@ -586,7 +594,7 @@
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}/lib/ruby_live_debugger_with_gui_freezed.rb"/>
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}/lib/ruby_live_debugger_with_gui_paralell.rb"/>
 </node>
-<node TEXT="scripts" POSITION="right" ID="ID_945586545" CREATED="1452181645434" MODIFIED="1459865684659">
+<node TEXT="scripts" POSITION="right" ID="ID_945586545" CREATED="1452181645434" MODIFIED="1463993298973">
 <edge COLOR="#00007c"/>
 <richcontent TYPE="NOTE">
 
@@ -708,6 +716,7 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="FreeplaneJrubyInstaller.groovy" ID="ID_1962771958" CREATED="1452183768458" MODIFIED="1463993277222">
 <attribute_layout NAME_WIDTH="209.25 pt" VALUE_WIDTH="209.25 pt"/>
@@ -746,7 +755,7 @@
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="true"/>
 </node>
 </node>
-<node TEXT="lib" POSITION="right" ID="ID_638696808" CREATED="1452181645454" MODIFIED="1459865684694">
+<node TEXT="lib" POSITION="right" ID="ID_638696808" CREATED="1452181645454" MODIFIED="1463993299077">
 <edge COLOR="#007c00"/>
 <richcontent TYPE="NOTE">
 
@@ -784,12 +793,13 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="FreeplaneJrubyInstaller.jar" ID="ID_1656587394" CREATED="1452184337769" MODIFIED="1452184337771"/>
 <node TEXT="ruby_live_debugger_with_gui_freezed.rb" ID="ID_1688866816" CREATED="1459852201583" MODIFIED="1459852201590"/>
 <node TEXT="ruby_live_debugger_with_gui_paralell.rb" ID="ID_1679382548" CREATED="1459852201590" MODIFIED="1459852201592"/>
 </node>
-<node TEXT="zips" POSITION="right" ID="ID_682479777" CREATED="1452181645464" MODIFIED="1459865684700">
+<node TEXT="zips" POSITION="right" ID="ID_682479777" CREATED="1452181645464" MODIFIED="1463993299089">
 <edge COLOR="#7c007c"/>
 <richcontent TYPE="NOTE">
 
@@ -827,12 +837,13 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <node TEXT="addons" ID="ID_1728579441" CREATED="1459768654398" MODIFIED="1459768655907"/>
 <node TEXT="lib" ID="ID_1859924244" CREATED="1459778973250" MODIFIED="1459778973276"/>
 <node TEXT="scripts" ID="ID_377654240" CREATED="1459778973277" MODIFIED="1459778973278"/>
 </node>
-<node TEXT="images" POSITION="right" ID="ID_1796134520" CREATED="1452181645474" MODIFIED="1459865684727">
+<node TEXT="images" POSITION="right" ID="ID_1796134520" CREATED="1452181645474" MODIFIED="1463993299279">
 <edge COLOR="#007c7c"/>
 <richcontent TYPE="NOTE">
 
@@ -866,6 +877,7 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
