@@ -35,9 +35,16 @@ module Freeplane
     Java::org.freeplane.plugin.script.FreeplaneScriptBaseClass::ConfigProperties
   end
 
-  # Executes the block inside the EDT thread
+  # Executes (asynchronously) the block inside the EDT thread
+  # See https://docs.oracle.com/javase/7/docs/api/javax/swing/SwingUtilities.html
   def invokeLater(&block)
     Java::javax.swing.SwingUtilities.invokeLater(&block)
+  end
+
+  # Executes (synchronously) the block inside the EDT thread
+  # See https://docs.oracle.com/javase/7/docs/api/javax/swing/SwingUtilities.html
+  def invokeAndWait(&block)
+    Java::javax.swing.SwingUtilities.invokeAndWait(&block)
   end
 
 end
