@@ -43,18 +43,21 @@ module Freeplane
 end
 
 
-extend Freeplane   # All instance-methods of module Freeplane, are now omnipresent global-methods present in *all* scopes
+# All instance-methods of module Freeplane, are now omnipresent global-methods present in *all* scopes
+module Kernel; include Freeplane; end
+class Object; include Kernel; end
 =begin
 # This promotes Freeplane instance-methods to be like global-methods,ie, from now on, all freeplane instance-methods become omnipresent and call'able in all scopes (inside methods, block, other classes, ... everywhere)
 # See this http://stackoverflow.com/questions/9236799/including-extending-the-kernel-doesnt-add-those-methods-on-mainobject
 # You need to have an: 
-    extend Freeplane 
+   module Kernel; include Freeplane; end
+   class Object; include Kernel; end
 # in the base scope, and that will make all instance-methods of module Freeplane, to be present as global-methods in all scopes
 # This gives direct access to freeplane methods, which allows for simpler code:
 #    invokeLater { node.text = "much less code to get same result! and works in all scopes: classes, methods, blocks, everywhere!" }
-# An alternative to "extend Freeplane" would also be:
-   module Kernel; include Freeplane; end
-   class Object; include Kernel; end
+#
+# An alternative to that should be the following (but with Jruby 9.1.7.0 it does not work so well)
+    extend Freeplane 
 =end
 
         
