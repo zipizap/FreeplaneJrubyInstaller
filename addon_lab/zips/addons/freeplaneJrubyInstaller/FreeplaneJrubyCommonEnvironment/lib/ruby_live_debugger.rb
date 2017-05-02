@@ -30,7 +30,8 @@ class RubyLiveDebugger
       
     if  Java::org.apache.commons.lang3.SystemUtils::IS_OS_LINUX 
       cmds_for_pry_remote = %W(java -jar #{jruby_file_fullpath} #{this_file_fullpath})
-      cmds_for_os_terminal = %W(/usr/bin/env xterm -hold -geometry 200x30 -fg white -bg black -e ) 
+      cmds_for_os_terminal = %W(/usr/bin/env xterm -geometry 200x30 -fg white -bg black -e ) 
+      #cmds_for_os_terminal = %W(/usr/bin/env xterm -hold -geometry 200x30 -fg white -bg black -e ) 
           # -hold   keep window open after command finishes. Use it for debug
       full_cmds = (cmds_for_os_terminal + cmds_for_pry_remote)
       puts(full_cmds*' ')
@@ -39,7 +40,7 @@ class RubyLiveDebugger
     elsif Java::org.apache.commons.lang3.SystemUtils::IS_OS_WINDOWS
       cmds_for_pry_remote = %W(java -jar "#{jruby_file_fullpath}" "#{this_file_fullpath}")
       cmds_for_os_terminal = %W(start cmd.exe /K ) 
-          # /K      keep window open after command finishes. 
+          # /K      keep window open after command finishes. Use it for debug
           #         for some unknown reason, without it the cmd window closes prematurely... so we better use it...
       full_cmds = (cmds_for_os_terminal + cmds_for_pry_remote)
       puts(full_cmds*' ')
@@ -52,8 +53,10 @@ class RubyLiveDebugger
     elsif Java::org.apache.commons.lang3.SystemUtils::IS_OS_MAC
       # This Mac code is untested, hope this works well or that someone with a mac improves this in some future
       cmds_for_pry_remote = %W(java -jar #{jruby_file_fullpath} #{this_file_fullpath})
-      cmds_for_os_terminal = %W(/usr/bin/env xterm -hold -geometry 200x30 -fg white -bg black -e ) 
-      # Hope there is xterm in MAC... did not get a solid confirmation by searching in google...
+      cmds_for_os_terminal = %W(/usr/bin/env xterm -geometry 200x30 -fg white -bg black -e ) 
+      #cmds_for_os_terminal = %W(/usr/bin/env xterm -hold -geometry 200x30 -fg white -bg black -e ) 
+          # -hold   keep window open after command finishes. Use it for debug
+          # Hope xterm works good enough in MAC
       full_cmds = (cmds_for_os_terminal + cmds_for_pry_remote)
       puts(full_cmds*' ')
       Thread.new { pid = Spoon.spawn(*full_cmds); Process.detach(pid) }
