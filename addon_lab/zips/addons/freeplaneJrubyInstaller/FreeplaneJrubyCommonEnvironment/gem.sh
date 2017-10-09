@@ -8,7 +8,7 @@
 #      - /media/sf_Freeplane_user_dirs_shared/rubies/JrPrototypeX/gem_home
 #   ...
 
-alias jr="java -jar $PWD/../../../lib/jruby-complete-9.0.4.0.jar -r $PWD/lib/only_gem_home.rb"
+alias jr="java -jar $(ls -1rt ../../../lib/jruby-complete-*.jar) -r ./lib/only_gem_home.rb"
 jr -S gem env
-#jr -S gem install awesome_print
+jr -S gem install awesome_print
 
