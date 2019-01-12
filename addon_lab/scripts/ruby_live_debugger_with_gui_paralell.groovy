@@ -31,11 +31,13 @@ public class MyHelperClass {
 
   // script_path should be any freeplane-valid-script ( .groovy, .js and even .rb if jruby is installed)
   public static Object executeScript(File script_path) {
-    //File script_path = new File("" + c.getUserDirectory().path + "\\test.rb")
+    ScriptingPermissions permissions = ScriptingPermissions.getPermissiveScriptingPermissions()
+    NodeModel nodeModel = Controller.getCurrentController().getMap().getRootNode()
+    GenericScript myGenericScript = new GenericScript( script_path, permissions)
 
-    ScriptingPermissions permissions = ScriptingPermissions.getPermissiveScriptingPermissions();
-    NodeModel nodeModel = Controller.getCurrentController().getMap().getRootNode();
-    return ScriptingEngine.executeScript(nodeModel, script_path, permissions);
+    ScriptRunner scriptRunner = new ScriptRunner(myGenericScript)
+    Object myObj = scriptRunner.execute(nodeModel)
+    return myObj
   }
 }
 
